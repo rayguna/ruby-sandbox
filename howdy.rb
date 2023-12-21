@@ -3,8 +3,18 @@
 my_string = "Hello, world!"
 pp my_string
 
+#inquire name
+pp "What's your name?"
+
+
+their_name = gets.strip
+
+pp "Hello, " + their_name + "!"
+puts "Hello, " + their_name + "!"
+
 require "./goodbye.rb"
 
+=begin
 require "active_support/all"
 #Try active support
 pp 1.ordinalize    # => "1st"
@@ -21,3 +31,4 @@ pp "equipment".pluralize # => "equipment"
 pp "tables".singularize    # => "table"
 pp "rubies".singularize    # => "ruby"
 pp "equipment".singularize # => "equipment"
+=end
